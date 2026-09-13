@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="DejaVu Sans, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="1000" fill="#ffffff"/>
+  <text x="500" y="46" text-anchor="middle" font-size="30" font-weight="bold" fill="#222">From molecule to behavior</text>
+  <g transform="translate(500,520)">
+    <circle r="440" fill="#EAF7FB" stroke="#5BD0F0" stroke-width="10"/>
+    <circle r="330" fill="#F2FAF5" stroke="#3FA36B" stroke-width="9"/>
+    <circle r="240" fill="#FFF6E9" stroke="#F0A94A" stroke-width="9"/>
+    <circle r="170" fill="#F8EEFB" stroke="#B05CD6" stroke-width="9"/>
+    <circle r="100" fill="#ffffff" stroke="#7B3FA0" stroke-width="9"/>
+    <g fill="none" stroke="#7B3FA0" stroke-width="7" stroke-linejoin="round">
+      <polygon points="-22,-38 22,-38 44,0 22,38 -22,38 -44,0"/>
+      <line x1="44" y1="0" x2="70" y2="-15"/><circle cx="76" cy="-19" r="9" fill="#7B3FA0" stroke="none"/>
+      <line x1="-44" y1="0" x2="-70" y2="15"/><circle cx="-76" cy="19" r="9" fill="#7B3FA0" stroke="none"/>
+      <line x1="0" y1="38" x2="0" y2="50"/><circle cx="0" cy="56" r="8" fill="#7B3FA0" stroke="none"/></g>
+    <g fill="none" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -372,-160 A 385,385 0 0 1 -372,160"/>
+      <path d="M -393,-142 L -372,-162 L -349,-150"/><path d="M -393,142 L -372,162 L -349,150"/></g>
+    <g text-anchor="middle" font-size="17" font-weight="bold" fill="#222">
+      <rect x="-440" y="-214" width="130" height="28" rx="6" fill="#ffffff" stroke="#5BD0F0" stroke-width="2"/><text x="-375" y="-193">Neuroscience</text>
+      <rect x="-410" y="186" width="70" height="28" rx="6" fill="#ffffff" stroke="#5BD0F0" stroke-width="2"/><text x="-375" y="207">AI</text></g>
+    <g text-anchor="middle" font-size="17" font-weight="bold">
+      <text y="82" fill="#7B3FA0" font-size="15">molecule · drug</text>
+      <text y="141" fill="#B05CD6">ion channel · synapse</text>
+      <text y="211" fill="#F0A94A">neuron</text>
+      <text y="291" fill="#3FA36B">circuit · network</text>
+      <text y="391" fill="#2A9DBD">decision making · behavior</text></g>
+  </g>
+  <text x="500" y="990" text-anchor="middle" font-size="18" fill="#666">AI drug discovery · multiscale modeling · reinforcement learning</text>
+</svg>

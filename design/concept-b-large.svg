@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="DejaVu Sans, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="1000" fill="#ffffff"/>
+  <g transform="translate(500,520)">
+    <!-- rings, inner to outer -->
+    <circle r="440" fill="#EAF7FB" stroke="#5BD0F0" stroke-width="10"/>
+    <circle r="350" fill="#F2FAF5" stroke="#3FA36B" stroke-width="9"/>
+    <circle r="265" fill="#FFF6E9" stroke="#F0A94A" stroke-width="9"/>
+    <circle r="185" fill="#F8EEFB" stroke="#B05CD6" stroke-width="9"/>
+    <circle r="105" fill="#ffffff" stroke="#7B3FA0" stroke-width="9"/>
+
+    <!-- center: molecule / drug -->
+    <g fill="none" stroke="#7B3FA0" stroke-width="7" stroke-linejoin="round">
+      <polygon points="-22,-38 22,-38 44,0 22,38 -22,38 -44,0"/>
+      <line x1="44" y1="0" x2="72" y2="-16"/><circle cx="80" cy="-21" r="9" fill="#7B3FA0" stroke="none"/>
+      <line x1="-44" y1="0" x2="-72" y2="16"/><circle cx="-80" cy="21" r="9" fill="#7B3FA0" stroke="none"/>
+      <line x1="0" y1="38" x2="0" y2="50"/><circle cx="0" cy="56" r="7" fill="#7B3FA0" stroke="none"/>
+    </g>
+
+    <!-- ring 2: ion channel / synapse (icons at top of ring) -->
+    <g transform="translate(0,-140) scale(0.85)" fill="none" stroke="#B05CD6" stroke-width="6">
+      <line x1="-60" y1="-12" x2="-14" y2="-12"/><line x1="-60" y1="12" x2="-14" y2="12"/>
+      <line x1="14" y1="-12" x2="60" y2="-12"/><line x1="14" y1="12" x2="60" y2="12"/>
+      <rect x="-14" y="-24" width="11" height="48" rx="3"/><rect x="3" y="-24" width="11" height="48" rx="3"/>
+      <g fill="#B05CD6" stroke="none"><circle cx="-2" cy="-40" r="4"/><circle cx="6" cy="-52" r="4"/><circle cx="-8" cy="-58" r="4"/></g>
+    </g>
+
+    <!-- ring 3: neuron -->
+    <g transform="translate(0,-224) scale(0.8)" fill="none" stroke="#F0A94A" stroke-width="6" stroke-linecap="round">
+      <circle r="16"/>
+      <path d="M-11,-11 L-40,-34 M-13,9 L-42,26 M11,-11 L36,-36 M16,0 L95,0 M95,0 L108,-12 M95,0 L108,12 M-40,-34 L-52,-44 M-40,-34 L-46,-20"/>
+    </g>
+
+    <!-- ring 4: network / circuit -->
+    <g transform="translate(0,-307) scale(0.85)" fill="none" stroke="#3FA36B" stroke-width="5">
+      <path d="M-70,-22 L-25,-30 L25,-30 L70,-22 M-70,22 L-25,30 L25,30 L70,22 M-70,-22 L-25,30 M-70,22 L-25,-30 M25,-30 L70,22 M25,30 L70,-22 M-25,-30 L25,30 M-25,30 L25,-30"/>
+      <g fill="#3FA36B" stroke="none"><circle cx="-70" cy="-22" r="8"/><circle cx="-70" cy="22" r="8"/><circle cx="-25" cy="-30" r="8"/><circle cx="-25" cy="30" r="8"/><circle cx="25" cy="-30" r="8"/><circle cx="25" cy="30" r="8"/><circle cx="70" cy="-22" r="8"/><circle cx="70" cy="22" r="8"/></g>
+    </g>
+
+    <!-- ring 5: decision making — human / animal / agent, with RL -->
+    <!-- human -->
+    <g transform="translate(-160,-355)" fill="none" stroke="#2A9DBD" stroke-width="6" stroke-linecap="round">
+      <circle cy="-22" r="12"/><path d="M0,-10 L0,20 M-20,0 L20,0 M0,20 L-14,44 M0,20 L14,44"/>
+    </g>
+    <!-- animal (mouse) -->
+    <g transform="translate(0,-395)" fill="none" stroke="#2A9DBD" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-40,10 C-40,-14 -14,-22 8,-18 C22,-26 40,-20 44,-6 C50,4 44,14 30,16 L-30,16 C-38,16 -40,14 -40,10 Z"/>
+      <circle cx="24" cy="-26" r="8"/><circle cx="36" cy="-6" r="2.5" fill="#2A9DBD" stroke="none"/>
+      <path d="M-40,10 C-60,6 -72,24 -60,36"/>
+    </g>
+    <!-- agent (robot) -->
+    <g transform="translate(160,-355)" fill="none" stroke="#2A9DBD" stroke-width="6" stroke-linejoin="round">
+      <rect x="-24" y="-18" width="48" height="40" rx="6"/><line x1="0" y1="-18" x2="0" y2="-34"/><circle cy="-38" r="5" fill="#2A9DBD" stroke="none"/>
+      <circle cx="-10" cy="0" r="4" fill="#2A9DBD" stroke="none"/><circle cx="10" cy="0" r="4" fill="#2A9DBD" stroke="none"/><line x1="-10" y1="12" x2="10" y2="12"/>
+    </g>
+    <!-- Neuroscience <-> AI: curved double arrow along the outer band, left side -->
+    <g fill="none" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -361,-160 A 395,395 0 0 1 -361,160"/>
+      <path d="M -382,-142 L -361,-162 L -338,-150"/>
+      <path d="M -382,142 L -361,162 L -338,150"/>
+    </g>
+    <g text-anchor="middle" font-size="17" font-weight="bold" fill="#222">
+      <rect x="-430" y="-214" width="130" height="28" rx="6" fill="#ffffff" stroke="#5BD0F0" stroke-width="2"/>
+      <text x="-365" y="-193">Neuroscience</text>
+      <rect x="-400" y="186" width="70" height="28" rx="6" fill="#ffffff" stroke="#5BD0F0" stroke-width="2"/>
+      <text x="-365" y="207">AI</text>
+    </g>
+    <!-- ring labels: bottom of each band -->
+    <g text-anchor="middle" font-size="17" font-weight="bold">
+      <text y="84" fill="#7B3FA0" font-size="15">molecule · drug</text>
+      <text y="151" fill="#B05CD6">ion channel · synapse</text>
+      <text y="231" fill="#F0A94A">neuron</text>
+      <text y="313" fill="#3FA36B">circuit · network</text>
+      <text y="401" fill="#2A9DBD">decision making · behavior</text>
+    </g>
+  </g>
+  <!-- title strip -->
+  <text x="500" y="46" text-anchor="middle" font-size="30" font-weight="bold" fill="#222">From molecule to behavior</text>
+  <text x="500" y="990" text-anchor="middle" font-size="18" fill="#666">AI drug discovery · multiscale modeling · reinforcement learning</text>
+</svg>
