@@ -3,7 +3,7 @@
 부산대학교 의과대학 생리학교실 **신경인공지능 연구실(NeuroAI Lab)** 홈페이지 소스입니다.
 [Hugo Blox](https://hugoblox.com) research-group 템플릿 기반의 정적 사이트로, `main`에 머지되면 GitHub Actions가 GitHub Pages에 자동 배포합니다.
 
-- 사이트: https://neuroailab.com (도메인 연결 전에는 https://neuroai-pnu.github.io/neuroailab.com/)
+- 사이트: https://neuroailab.com
 - 언어: 한국어 `content/ko/` (기본), 영어 `content/en/`
 - 수정 방법: [CONTRIBUTING.md](CONTRIBUTING.md)
 
