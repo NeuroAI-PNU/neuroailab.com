@@ -2,7 +2,7 @@
 title: "[연구성과 소식] 머신러닝을 활용한 균혈증 발병 연관 인자 예측 논문 게재"
 date: 2026-04-08
 authors:
-  - Hyunsu Lee
+  - Jeongin Jang
 categories: ["News"]
 ---
 

@@ -2,7 +2,7 @@
 title: "[연구성과 소식] 류마티스 관절염 완화 신규 화합물 발굴 논문 게재"
 date: 2026-03-18
 authors:
-  - Hyunsu Lee
+  - Hyunjin Kim
 categories: ["News"]
 ---
 

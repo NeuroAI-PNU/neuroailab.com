@@ -2,7 +2,7 @@
 title: "2025년 생리학회"
 date: 2025-11-20
 authors:
-  - Hyunsu Lee
+  - SungSu Oh
 categories: ["News"]
 ---
 

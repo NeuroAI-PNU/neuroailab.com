@@ -29,6 +29,9 @@ ko:
       - name: 연락
         url: contact
         weight: 60
+      - name: 랩 위키
+        url: https://github.com/NeuroAI-PNU/lab_wiki
+        weight: 70
 
 en:
   locale: en-US
@@ -58,3 +61,6 @@ en:
       - name: Contact
         url: contact
         weight: 60
+      - name: Lab Wiki
+        url: https://github.com/NeuroAI-PNU/lab_wiki
+        weight: 70

@@ -2,7 +2,7 @@
 title: "2026 한국계산뇌과학회"
 date: 2026-09-09
 authors:
-  - Hyunsu Lee
+  - Jeongin Jang
 categories: ["News"]
 ---
 

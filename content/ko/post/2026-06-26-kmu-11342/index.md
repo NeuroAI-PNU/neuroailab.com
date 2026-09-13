@@ -2,7 +2,7 @@
 title: "[연구성과 소식] KMU-11342 화합물을 이용한 대장암에서의 항암 효능 평가 논문 게재"
 date: 2026-06-26
 authors:
-  - Hyunsu Lee
+  - Jeongin Jang
 categories: ["News"]
 ---
 

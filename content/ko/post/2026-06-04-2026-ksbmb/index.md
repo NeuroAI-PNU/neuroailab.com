@@ -2,7 +2,7 @@
 title: "2026년 생화학분자생물학회 KSBMB"
 date: 2026-06-04
 authors:
-  - Hyunsu Lee
+  - Jeongin Jang
 categories: ["News"]
 ---
 

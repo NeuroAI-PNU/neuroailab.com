@@ -2,7 +2,7 @@
 title: "2024년 6월 19~21 대한의료정보학회 춘계학술대회"
 date: 2024-06-24
 authors:
-  - Hyunsu Lee
+  - Deokhyeon Yoon
 categories: ["News"]
 ---
 

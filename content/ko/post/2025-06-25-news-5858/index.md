@@ -2,7 +2,7 @@
 title: "2025년 대한의료정보학회 춘계학술대회"
 date: 2025-06-25
 authors:
-  - Hyunsu Lee
+  - SungSu Oh
 categories: ["News"]
 ---
 

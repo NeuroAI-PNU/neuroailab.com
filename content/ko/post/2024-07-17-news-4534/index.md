@@ -2,7 +2,7 @@
 title: "김유빈 학부연구생이 우리 연구실에 합류했습니다."
 date: 2024-07-17
 authors:
-  - Hyunsu Lee
+  - Deokhyeon Yoon
 categories: ["News"]
 ---
 

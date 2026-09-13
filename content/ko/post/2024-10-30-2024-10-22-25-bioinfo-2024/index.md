@@ -2,7 +2,7 @@
 title: "2024년 10월 22~25 BIOINFO 2024 한국생물정보학술대회"
 date: 2024-10-30
 authors:
-  - Hyunsu Lee
+  - Deokhyeon Yoon
 categories: ["News"]
 ---
 
