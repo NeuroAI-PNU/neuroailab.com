@@ -9,7 +9,7 @@ sections:
       title: 연구
       text: |
         ![연구 지도: 분자→행동 × 계산 모델→임상 데이터](research-map.svg)
-        <p style="text-align:center;font-size:0.85em;color:#666">그림 출처: KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), T-미로 전이학습 ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), 1D/2D 환경 ([Sensors 2025](../publication/lee-2025/), CC BY 4.0), 이식 후 균혈증 생존곡선 ([Biomedicines 2026](../publication/oh-2026-2/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/), CC BY 4.0), SNOMED-CT 매핑 ([Med Biol Eng Comput 2026](../publication/oh-2026/), open access).</p>
+        <p style="text-align:center;font-size:0.85em;color:#666">그림 출처: FAK 활성화제 그래픽 초록 ([Comput Biol Chem 2025](../publication/yoon-2025/), © Elsevier), KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), ACh 이득 지형도, 보충 그림 S1 ([Cognitive Neurodynamics 2026](../publication/seo-2026/), open access), T-미로 ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/), CC BY 4.0), SNOMED-CT 매핑 ([Med Biol Eng Comput 2026](../publication/oh-2026/), open access), 이식 후 균혈증 생존곡선 ([Biomedicines 2026](../publication/oh-2026-2/), CC BY 4.0).</p>
 
         ## 1. AI 기반 신약 개발
 
