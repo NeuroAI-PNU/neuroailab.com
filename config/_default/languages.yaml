@@ -1,22 +1,60 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# 언어별 설정 — 메뉴는 언어마다 따로 정의합니다.
+# 문서: https://docs.hugoblox.com/reference/language/
 
-# Default language
+ko:
+  locale: ko-KR
+  label: 한국어
+  weight: 1
+  contentDir: content/ko
+  title: 신경인공지능 연구실
+  params:
+    description: 부산대학교 의과대학 생리학교실 신경인공지능 연구실(NeuroAI Lab)
+  menu:
+    main:
+      - name: 연구
+        url: research
+        weight: 10
+      - name: 구성원
+        url: people
+        weight: 20
+      - name: 논문
+        url: publication
+        weight: 30
+      - name: 소식
+        url: post
+        weight: 40
+      - name: 모집
+        url: join
+        weight: 50
+      - name: 연락
+        url: contact
+        weight: 60
+
 en:
-  languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  locale: en-US
+  label: English
+  weight: 2
+  contentDir: content/en
+  title: NeuroAI Lab
+  params:
+    description: NeuroAI Lab, Department of Physiology, Pusan National University School of Medicine
+  menu:
+    main:
+      - name: Research
+        url: research
+        weight: 10
+      - name: People
+        url: people
+        weight: 20
+      - name: Publications
+        url: publication
+        weight: 30
+      - name: News
+        url: post
+        weight: 40
+      - name: Join
+        url: join
+        weight: 50
+      - name: Contact
+        url: contact
+        weight: 60

@@ -1,24 +1,18 @@
-# Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-title: Wowchemy Research Group # Website name
-baseURL: 'https://example.com/' # Website URL
+# Hugo 설정 — 문서: https://docs.hugoblox.com/reference/
+title: NeuroAI Lab
+baseURL: 'https://neuroailab.com/'   # GitHub Actions 빌드 시 --baseURL 로 덮어씀
 
 ############################
 ## LANGUAGE
 ############################
-
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguage: ko
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: true   # /ko/ , /en/
 removePathAccents: true
 
 ############################
 ## ADVANCED
 ############################
-
 enableGitInfo: false
 summaryLength: 30
 pagination:
@@ -34,11 +28,14 @@ permalinks:
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, JSON, WebAppManifest]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  jpeg:
+    quality: 75
+  webp:
+    quality: 75
   anchor: smart
 timeout: 600000
 taxonomies:

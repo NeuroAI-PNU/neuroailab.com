@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'NeuroAI Lab, Pusan National University'
+    description: 'NeuroAI Lab — Department of Physiology, Pusan National University School of Medicine'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -36,7 +36,7 @@ header:
     enable: true
     align: r
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: false
@@ -45,9 +45,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} NeuroAI Lab, Pusan National University School of Medicine'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/NeuroAI-PNU/neuroailab.com'
     content_dir: content
     branch: main
   avatar:
@@ -105,9 +105,6 @@ features:
 # Extensions
 
 extensions:
-  decap_cms:
-    branch: main
-    local_backend: false
   academicons:
     enable: true
 
