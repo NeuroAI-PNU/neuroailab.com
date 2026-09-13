@@ -25,18 +25,35 @@ GitHub에서 PR을 열면 됩니다. 로컬에 Hugo가 없어도 됩니다. PR�
 `user_groups`는 두 언어의 `people/index.md`에 있는 그룹 이름과 정확히 같아야 표시됩니다.
 `weight`는 그룹 안 정렬 순서입니다(작을수록 위).
 
+GitHub, Google Scholar, ORCID, 이메일 등은 `social` 항목에 넣으면 프로필에 아이콘으로 표시됩니다.
+
+```yaml
+social:
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/<내 GitHub ID>
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=<ID>
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/<ORCID>
+```
+
 사진은 같은 폴더에 `avatar.jpg`(정방형, 400×400 정도)로 넣으면 자동으로 표시됩니다. 두 언어 폴더에 각각 넣어야 합니다.
 
 ## 소식(News) 글 쓰기
 
 `content/ko/post/<YYYY-MM-DD-slug>/index.md`를 만들고, 영어판이 있으면 `content/en/post/` 에 같은 폴더명으로 만듭니다.
 
+**`authors:`에는 글쓴이 본인의 프로필 이름을 적습니다.** 사이트는 PR을 보낸 GitHub 계정을 알지 못하므로, 이 이름이 프로필 페이지로 링크되는 유일한 연결입니다. 프로필 `title`과 글자 하나까지 같아야 하며, 비어 있거나 다르면 PR의 `build` 검사가 실패합니다(`tools/check-content.py`).
+
 ```markdown
 ---
 title: 글 제목
 date: 2026-09-13
 authors:
-  - Hyunsu Lee
+  - Jeongin Jang        # 본인 프로필의 title 과 동일하게
 summary: 한 줄 요약
 ---
 

@@ -45,6 +45,8 @@ jobs:
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
+      - name: Check content (post authors)
+        run: python3 tools/check-content.py
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
