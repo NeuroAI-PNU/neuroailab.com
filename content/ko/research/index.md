@@ -9,7 +9,7 @@ sections:
       title: 연구
       text: |
         ![연구 지도: 분자→행동 × 계산 모델→임상 데이터](research-map.svg)
-        <p style="text-align:center;font-size:0.85em;color:#666">그림 출처: KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), T-미로 전이학습 ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/)), SNOMED-CT 매핑 ([Med Biol Eng Comput 2026](../publication/oh-2026/)).</p>
+        <p style="text-align:center;font-size:0.85em;color:#666">그림 출처: KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), T-미로 전이학습 ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/), CC BY 4.0), SNOMED-CT 매핑 ([Med Biol Eng Comput 2026](../publication/oh-2026/), open access).</p>
 
         ## 1. AI 기반 신약 개발
 

@@ -9,7 +9,7 @@ sections:
       title: Research
       text: |
         ![Research map: molecule to behavior × computational model to clinical data](research-map.svg)
-        <p style="text-align:center;font-size:0.85em;color:#666">Figures: KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), T-maze transfer learning ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/)), SNOMED-CT mapping ([Med Biol Eng Comput 2026](../publication/oh-2026/)).</p>
+        <p style="text-align:center;font-size:0.85em;color:#666">Figures: KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), T-maze transfer learning ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/), CC BY 4.0), SNOMED-CT mapping ([Med Biol Eng Comput 2026](../publication/oh-2026/), open access).</p>
 
         ## 1. AI-Accelerated Drug Discovery
 
