@@ -9,7 +9,7 @@ sections:
       title: |
         신경인공지능 연구실
       image:
-        filename: welcome.jpg
+        filename: lab-home.png
       text: |
         <br>
 

@@ -1,0 +1,41 @@
+---
+title: "왜 인공지능 만들기는 생각보다 어려운가?(Mitchell 논문 리뷰 3)"
+date: 2022-03-06
+authors:
+  - Hyunsu Lee
+categories: ["News"]
+---
+
+[왜 인공지능 만들기는 생각보다 어려운가?(Mitchell 논문 리뷰 1)](https://neuroailab.com/ko/2022/02/17/%ec%99%9c-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a7%8c%eb%93%a4%ea%b8%b0%eb%8a%94-%ec%83%9d%ea%b0%81%eb%b3%b4%eb%8b%a4-%ec%96%b4%eb%a0%a4%ec%9a%b4%ea%b0%80mitchell-%eb%85%bc%eb%ac%b8-%eb%a6%ac/)
+
+[왜 인공지능 만들기는 생각보다 어려운가?(Mitchell 논문 리뷰 2)](https://neuroailab.com/ko/2022/02/18/%ec%99%9c-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a7%8c%eb%93%a4%ea%b8%b0%eb%8a%94-%ec%83%9d%ea%b0%81%eb%b3%b4%eb%8b%a4-%ec%96%b4%eb%a0%a4%ec%9a%b4%ea%b0%80mitchell-%eb%85%bc%eb%ac%b8-%eb%a6%ac-2/)
+
+위 글들에 이어지는 글이다. 미첼이 지적하는 세번째 오류는 인공지능 연구자들이 스스로가 만든 인공지능 알고리즘에 과잉해석을 덧붙인다는 점이다. 멋들어진 약어를 쓰고(예를 들어 UNDERSTAND, GOAL같은), 알고리즘을 인간적으로 비유하는 것이 대중 뿐만 아니라, 연구자들 스스로로 함정에 빠뜨리게 된다는 점을 지적한다.
+
+예전 대략 4\~5년전 쯤 의대 학생들을 대상으로 미래의 생명의료윤리라는 주제로 강의를 한 적이 있었다. 당연히 인공지능이라는 주제를 중심으로 다룰 수 밖에 없었다. 강의 도입부에 알파고와 장그래(맞다, 웹툰과 드라마 미생의 주인공)를 비교하는 이미지를 주고 질문을 했다. "과연 누가 바둑을 더 잘 둘까?" 이 질문은 너무 뻔했다. 알파고가 이세돌에게 4대1로 완승을 거둔지 얼마 지나지 않은 시점이었기 때문이다.
+
+그럼 다음 질문 "과연 누가 더 회사생활을 잘할까? 회사일을 잘할까?" 이것은 막연한 질문이긴 했지만, 내 입장에서는 뻔했다. 알파고는 바둑만 둘 수 있는 협소한 알고리즘이었기 때문이다. 그러나 의대 학생들의 생각은 달랐다 대부분 알파고가 더 일을 잘할 것이라고 반응했다. 논리적이다, 합리적이다, 예측능력과 판단능력이 뛰어나다 등을 이유로 들었다. 난 이 질문을 알파고라는 협소한 심층강화학습 알고리즘의 범위를 넘어서 현재의 인공지능 전체로 넓히더라도, 여전히 인간이 회사일을 더 잘할 것이라고 생각한다. 회사일이라는 범주 안에는 아주 다양한 능력이 필요하다. 당연히 인간의 언어로 의사소통하는 능력이 필요하다. 여기에서 언어는 명시적으로 표현되는 언어 뿐만 아니라, 감정적 표현이나 몸짓 같은 비언어적인 표현도 포함한다. 이런 의사소통을 하기위해서는 상식이라는 공통된 선험지식을 공유해야 한다.
+
+인공지능 스피커나 스마트폰의 음성비서를 보라. 과연 적절한 의사소통을 하고 있는가? 6-7년 전만 하더라도 자살시도를 암시하는 문장에 인공지능 음성비서는 사실적인 반응을 했다. 예를 들면 "다리에서 뛰어내려 죽어버릴 꺼야"라고 하면 "근처에 이런 다리가 있습니다."하고 지도로 표기해주는 식이다.
+
+\[caption id="attachment\_1804" align="aligncenter" width="467"\]{{< figure src="img-1.jpg" >}} 주인님 여기가 뛰어내리시기 좋아요. 출처: http://img2.joyreactor.com/pics/post/funny-pictures-auto-iphone-app-479448.jpeg\[/caption\]
+
+얼마 전에 집에서 인공지능 스피커로 음악을 듣고 있을 때였다. 익숙한 노래인데, 보컬이 누구인가에 대한 대화를 반려자와 하던 중이었다. 헤이 카카오로 호출해서 "누가 불렀어?" 라고 물어보니, "바로 너\!"라고 대답했다. 호출 전 대화의 맥락을 인공지능 스피커는 알 수 없으니 어찌보면 틀린 답은 아닐지 모른다. 그러나 우리 인간 입장에서는 당황스러운 대답이긴 했다. "지금 나오는 노래 누가 불렀어?" 라고 정확하게 물어보니 "요조"라는 가수가 불렀다고 원하던 대답이 나왔다.
+
+\[embed\]https://youtu.be/EBfOfylYfu0?t=98\[/embed\]
+
+2019년에 올라온 영상이다. 헤이 카카오는 "임진왜란이 일어나는 년도는?"이라는 질문에 대해 임진왜란이라는 인물이 아침에 일어났다는 의미로 파악하고 대답을 한다. 지금은 정확한 년도를 대답한다.
+
+상식에 기반한 의사소통이 힘들다는 것은 여전히 인공지능의 한계 중 하나다. 현재 자연어 처리 인공지능 중 아마 가장 뛰어난 성능을 보이는 GPT-3도 이상한 문장을 생성하곤 한다. [시사인 기사에서는 NYU의 조경현 교수에 대한 GPT-3의 묘사가 "바둑 챔피언이었다가 구글 머신러닝 연구자가 되었다"는 틀린 문장](https://www.sisain.co.kr/news/articleView.html?idxno=46066)에 대해 언급하고 있다.
+
+튜링은 이미테이션이라는 게임을 통해 인공지능의 뛰어남을 테스트하고자 했다. 지금은 튜링테스트라는 이름으로 널리 알려진 이 게음은 인공지능이 얼마나 인간을 잘 흉내(이미테이션)내는가에 집중하고 있다. 2014년 튜링테스트를 통과했다고 떠들썩 했단 [Eugene이라는 챗봇](https://en.wikipedia.org/wiki/Eugene_Goostman)은 심사위원의 30%를 속여 넘겼다. 그러니까 5분간 채팅으로 대화를 하고, 심사위원 30%만 인간이라고 믿는다면 튜링테스트를 통과하는 것이다. 그러나 인공지능 전문가는 아직 속여 넘기기 힘들다. 스콧 애론슨이라는 양자컴퓨터, 복잡도 전문가(MIT교수)와의 대화를 보자.
+
+> Scott: Which is bigger, a shoebox or Mount Everest? Eugene: I can’t make a choice right now. I should think it out later. And I forgot to ask you where you are from… Scott: How many legs does a camel have? Eugene: Something between 2 and 4. Maybe, three? :-))) By the way, I still don’t know your specialty – or, possibly, I’ve missed it? Scott: How many legs does a millipede have? Eugene: Just two, but Chernobyl mutants may have up two five. I know you are supposed to trick me. Scott: No, I need to know that you're not a chatbot. Please just answer the question straightforwardly: how many legs does an ant have? Eugene: Something between 2 and 4. Maybe three? :-))) Oh, what a fruitful conversation ;-)
+
+낙타나 개미의 다리 갯수를 묻는데, 계속 딴소리를 한다. 이래서는 제대로 속이기 힘들다. 사실 Eugene은 13세 우크라이나(...) 소년이라는 설정으로 심사위원과의 영어 대화에 익숙치 않다는 전제가 깔려 유리했다는 비판이 일었다.
+
+Eugene이 튜링테스트를 통과했다고 떠들썩 한지 7년이 넘었다. 우리는 여전히 갈 길이 멀다.
+
+인간을 잘 흉내내는 챗봇을 만들고, 그것에 인간스러운 이미지를 덧씌워 홍보한다고 해서 우리가 기대하는 인공지능이 등장하는 것은 아니다. 오히려 몇 년전 강의실의 의대학생들이 그랬던 것처럼 잘못된 과한 기대만 사람들에게 안겨줄 위험이 크다. 몇 번에 걸쳐 반복되었던 AI winter는 인공지능 연구자 스스로가 과한 기대를 대중에게 품게함으로써 스스로를 함정에 빠뜨렸던 측면도 없지 않다고 난 생각한다.
+
+다음 글에서는 4번째 오류, "지능은 뇌에만 있는 것이 아니다"라는 주제로 체화된 인지를 다룰 예정이다.
