@@ -1,0 +1,11 @@
+{{/* Site override of blox-bootstrap/v5 layouts/partials/page_edit.html.
+     The theme builds the edit URL from `content_dir` + .File.Path, which drops the per-language
+     content folder (content/ko, content/en). Use the file's path relative to the project root instead. */}}
+{{ if and .File .Params.editable | and site.Params.features.repository.url }}
+{{ $rel := strings.TrimPrefix (printf "%s/" hugo.WorkingDir) .File.Filename }}
+<p class="edit-page">
+  <a href="{{ site.Params.features.repository.url }}/edit/{{ site.Params.features.repository.branch | default "main" }}/{{ $rel }}">
+    <i class="fas fa-pen pr-2"></i>{{ i18n "edit_page" | default "Edit this page" }}
+  </a>
+</p>
+{{ end }}
