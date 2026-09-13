@@ -17,6 +17,12 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/HyunsuLee
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=ReCQZ08AAAAJ
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0003-3631-3028
 ---
 
 Ph.D. Physiology, Seoul National University College of Medicine  
