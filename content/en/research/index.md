@@ -8,6 +8,8 @@ sections:
     content:
       title: Research
       text: |
+        ![Research map: molecule to behavior × computational model to clinical data](research-map.svg)
+
         ## 1. AI-Accelerated Drug Discovery
 
         We harness deep generative models, virtual screening pipelines, and physics-based simulations to identify and validate novel therapeutics — exemplified by our FAK activator study [[1]](../publication/yoon-2025/). From hit discovery to mechanism prediction, we close the loop between in-silico hypotheses and wet-lab assays.
