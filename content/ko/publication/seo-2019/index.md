@@ -8,5 +8,5 @@ publishDate: '2019-08-01'
 publication_types: ['article-journal']
 publication: '*Brain Research Bulletin*, 150, 102–110'
 doi: 10.1016/j.brainresbull.2019.05.012
-featured: false
+featured: true
 ---

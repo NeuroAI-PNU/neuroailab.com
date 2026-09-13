@@ -9,7 +9,7 @@ sections:
       title: |
         NeuroAI Lab
       image:
-        filename: welcome.jpg
+        filename: lab-home.png
       text: |
         <br>
 

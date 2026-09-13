@@ -10,10 +10,10 @@ authors:
   - 'Chun Kee Chung'
   - 'Jaeyoung Yoon'
   - 'Won-Kyung Ho'
-date: '2024-08-01'
-publishDate: '2024-08-01'
+date: '2024-08-06'
+publishDate: '2024-08-06'
 publication_types: ['article-journal']
 publication: '*Nature Communications*, 15(1)'
 doi: 10.1038/s41467-024-51065-7
-featured: false
+featured: true
 ---
