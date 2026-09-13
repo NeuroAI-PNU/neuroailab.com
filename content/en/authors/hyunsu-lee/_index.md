@@ -59,11 +59,3 @@ Hyunsu Lee is an Associate Professor in the Department of Physiology and BioMedi
 | 2013.03 – 2013.07 | Intern Doctor, Seoul National University Hospital |
 | 2011.03 – 2013.02 | Research Doctor, Dept. of Physiology, Seoul National University College of Medicine |
 | 2007.09 – 2009.08 | Teaching Assistant, Dept. of Physiology, Seoul National University College of Medicine |
-
-### Honors and Awards
-
-- Young Faculty Teaching Award (2026), Pusan National University School of Medicine
-- Basic Researcher Award (2015), Korean Medical Association
-- Poster Award (2014), Korean Association of Anatomists
-- Poster Award (2010), Synapse Division, Korean Society for Biochemistry and Molecular Biology
-- Research Award (2009), Association of Korean Neuroscientists

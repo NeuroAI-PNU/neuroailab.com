@@ -1,17 +1,12 @@
 ---
-title: 'The Effect of Hypothermia on Cognitive Impairment and Anxiety-like Behavior in a Cardiac Arrest Mouse Model'
+title: 'The Value of Anatomy in Medical Humanities Education for Future Talents'
 authors:
   - 'Hyunsu Lee'
-  - 'M.-N. Park'
-  - 'J. S. Lim'
-  - 'H. S. Baek'
-  - 'S. Kim'
-  - 'H. W. Kim'
-  - 'J.-H. Hong'
+  - 'Jae-Ho Lee'
 date: '2023-01-01'
 publishDate: '2023-01-01'
 publication_types: ['article-journal']
-publication: '*Quantitative Bio-Science*, 42(1), 9–16'
-doi: 10.22283/qbs.2023.42.1.9
+publication: '*Anatomy & Biological Anthropology*, 36(1), 37'
+doi: 10.11637/aba.2023.36.1.37
 featured: false
 ---
