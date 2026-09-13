@@ -8,8 +8,9 @@ sections:
     content:
       title: 연구
       text: |
-        ![연구 지도: 분자→행동 × 계산 모델→임상 데이터](research-map.svg)
-        <p style="text-align:center;font-size:0.85em;color:#666">그림 출처: FAK 활성화제 그래픽 초록 ([Comput Biol Chem 2025](../publication/yoon-2025/), © Elsevier), KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), ACh 이득 지형도, 보충 그림 S1 ([Cognitive Neurodynamics 2026](../publication/seo-2026/), open access), T-미로와 누적 보상 곡선 ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/), CC BY 4.0), SNOMED-CT 매핑 ([Med Biol Eng Comput 2026](../publication/oh-2026/), open access), 기호 회귀 vs 기계학습 분류기 ROC ([Biomedicines 2026](../publication/oh-2026-2/), CC BY 4.0).</p>
+        <img class="research-map-wide" src="research-map.svg" alt="연구 지도: 분자→행동 × 계산 모델→임상 데이터" data-zoomable>
+        <img class="research-map-mobile" src="research-map-mobile.svg" alt="연구 지도: 분자→행동 × 계산 모델→임상 데이터" data-zoomable>
+        <p style="text-align:center;font-size:0.85em;color:#666">그림 출처: FAK 활성화제 그래픽 초록 ([Comput Biol Chem 2025](../publication/yoon-2025/), © Elsevier), KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), ACh 이득 지형도, 보충 그림 S1 ([Cognitive Neurodynamics 2026](../publication/seo-2026/), open access), T-미로와 누적 보상 곡선 ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/), CC BY 4.0), SNOMED-CT 매핑 ([Med Biol Eng Comput 2026](../publication/oh-2026/), open access), symbolic regression vs 기계학습 분류기 ROC ([Biomedicines 2026](../publication/oh-2026-2/), CC BY 4.0).</p>
 
         ## 1. AI 기반 신약 개발
 
@@ -21,7 +22,7 @@ sections:
 
         ## 3. AI 임상 의사결정 지원
 
-        임상 연구에서는 의료진이 읽을 수 있는 모델을 우선합니다. 전자의무기록의 자유 서술 진단명을 ClinicalBERT 미세조정으로 SNOMED-CT 개념에 매핑하고, 잠재 공간이 모호한 진단과 뚜렷이 다른 진단을 어떻게 구분하는지 분석했습니다([Med Biol Eng Comput 2026](../publication/oh-2026/)). 간이식 환자에서는 기호 회귀(symbolic regression)로 이식 후 균혈증의 직관적인 위험 방정식을 도출했고, SHAP 분석에서 EBV/HBV 혈청 지표가 통상 검사값 외의 위험 인자 후보로 드러났습니다([Biomedicines 2026](../publication/oh-2026-2/)). 앞선 연구에서는 내시경 영상으로 거대세포바이러스 식도염과 단순헤르페스 식도염을 기계학습으로 구분하고([Scientific Reports 2021](../publication/lee-2021/)), 내시경 전문의가 GAN 생성 위내시경 영상을 실제와 구별할 수 있는지 시험했으며([J Digit Imaging 2023](../publication/shin-2023/)), TCGA 코호트로 대장암의 비만 역설을 살폈습니다([J Cancer 2023](../publication/lim-2023-2/)). 의학교육에서 ChatGPT의 가능성을 다룬 초기 논문은 이 주제에서 가장 많이 인용되는 논문 중 하나입니다([Anat Sci Educ 2024](../publication/lee-2024/)).
+        임상 연구에서는 의료진이 읽을 수 있는 모델을 우선합니다. 전자의무기록의 자유 서술 진단명을 ClinicalBERT 미세조정으로 SNOMED-CT 개념에 매핑하고, 잠재 공간이 모호한 진단과 뚜렷이 다른 진단을 어떻게 구분하는지 분석했습니다([Med Biol Eng Comput 2026](../publication/oh-2026/)). 간이식 환자에서는 symbolic regression으로 이식 후 균혈증의 직관적인 위험 방정식을 도출했고, SHAP 분석에서 EBV/HBV 혈청 지표가 통상 검사값 외의 위험 인자 후보로 드러났습니다([Biomedicines 2026](../publication/oh-2026-2/)). 앞선 연구에서는 내시경 영상으로 거대세포바이러스 식도염과 단순헤르페스 식도염을 기계학습으로 구분하고([Scientific Reports 2021](../publication/lee-2021/)), 내시경 전문의가 GAN 생성 위내시경 영상을 실제와 구별할 수 있는지 시험했으며([J Digit Imaging 2023](../publication/shin-2023/)), TCGA 코호트로 대장암의 비만 역설을 살폈습니다([J Cancer 2023](../publication/lim-2023-2/)). 의학교육에서 ChatGPT의 가능성을 다룬 초기 논문은 이 주제에서 가장 많이 인용되는 논문 중 하나입니다([Anat Sci Educ 2024](../publication/lee-2024/)).
 
         ## 4. 해마 × 강화학습
 
