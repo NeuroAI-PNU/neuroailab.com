@@ -9,7 +9,7 @@ sections:
       title: Research
       text: |
         ![Research map: molecule to behavior × computational model to clinical data](research-map.svg)
-        <p style="text-align:center;font-size:0.85em;color:#666">Figures: FAK activator graphical abstract ([Comput Biol Chem 2025](../publication/yoon-2025/), © Elsevier), KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), ACh-gain landscape, Supplementary Fig. S1 ([Cognitive Neurodynamics 2026](../publication/seo-2026/), open access), T-maze ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/), CC BY 4.0), SNOMED-CT mapping ([Med Biol Eng Comput 2026](../publication/oh-2026/), open access), post-transplant BSI survival ([Biomedicines 2026](../publication/oh-2026-2/), CC BY 4.0).</p>
+        <p style="text-align:center;font-size:0.85em;color:#666">Figures: FAK activator graphical abstract ([Comput Biol Chem 2025](../publication/yoon-2025/), © Elsevier), KMU-11342 ([Pharmaceuticals 2026](../publication/jeon-2026/), CC BY 4.0), ACh-gain landscape, Supplementary Fig. S1 ([Cognitive Neurodynamics 2026](../publication/seo-2026/), open access), T-maze and cumulative-reward curves ([Sensors 2024](../publication/seo-2024/), CC BY 4.0), CASCADE ([Bioinformatics 2026](../publication/avila-2026/), CC BY 4.0), SNOMED-CT mapping ([Med Biol Eng Comput 2026](../publication/oh-2026/), open access), symbolic regression vs machine-learning classifiers, ROC ([Biomedicines 2026](../publication/oh-2026-2/), CC BY 4.0).</p>
 
         ## 1. AI-Accelerated Drug Discovery
 
