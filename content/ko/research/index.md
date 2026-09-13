@@ -8,8 +8,8 @@ sections:
     content:
       title: 연구
       text: |
-        <img class="research-map-wide" src="research-map.svg?v=7" alt="연구 지도: 분자→행동 × 계산 모델→임상 데이터" data-zoomable>
-        <img class="research-map-mobile" src="research-map-mobile.svg?v=7" alt="연구 지도: 분자→행동 × 계산 모델→임상 데이터" data-zoomable>
+        <img class="research-map-wide" src="research-map.svg?v=8" alt="연구 지도: 분자→행동 × 계산 모델→임상 데이터" data-zoomable>
+        <img class="research-map-mobile" src="research-map-mobile.svg?v=8" alt="연구 지도: 분자→행동 × 계산 모델→임상 데이터" data-zoomable>
         <p style="text-align:center;font-size:0.85em;color:#666">그림 출처: FAK 활성화제 그래픽 초록 (<a href="https://doi.org/10.1016/j.compbiolchem.2025.108420" target="_blank" rel="noopener">Comput Biol Chem 2025</a>, © Elsevier) · KMU-11342 (<a href="https://doi.org/10.3390/ph19070985" target="_blank" rel="noopener">Pharmaceuticals 2026</a>, CC BY 4.0) · ACh 이득 지형도, 보충 그림 S1 (<a href="https://doi.org/10.1007/s11571-026-10477-5" target="_blank" rel="noopener">Cognitive Neurodynamics 2026</a>, open access) · T-미로 과제와 누적 보상 (<a href="https://doi.org/10.3390/s24196419" target="_blank" rel="noopener">Sensors 2024</a>, CC BY 4.0) · CASCADE (<a href="https://doi.org/10.1093/bioinformatics/btag570" target="_blank" rel="noopener">Bioinformatics 2026</a>, CC BY 4.0) · SNOMED-CT 매핑 (<a href="https://doi.org/10.1007/s11517-026-03654-5" target="_blank" rel="noopener">Med Biol Eng Comput 2026</a>, open access) · symbolic regression vs 기계학습 분류기 ROC (<a href="https://doi.org/10.3390/biomedicines14040840" target="_blank" rel="noopener">Biomedicines 2026</a>, CC BY 4.0)</p>
 
         ## 1. AI 기반 신약 개발

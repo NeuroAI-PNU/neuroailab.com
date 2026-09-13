@@ -42,17 +42,17 @@ def quad(key,T,x,y,W,H,ft,fsub,fcap,axis=None):
         for j,(p,c) in enumerate(col): out+=panel(color,fx,ay+j*(rh+gap),cw,rh,p,c,fcap)
     return out
 def wide(lang,tag):
-    T=TXT[lang]; cx,cy=800,560; W,H=640,450; g=60; x1,x2=cx-g-W,cx+g; y1,y2=cy-g-H,cy+g
-    s=f'''<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" {F}>
-  <rect width="1600" height="1120" fill="#fff"/>
+    T=TXT[lang]; cx,cy=800,590; W,H=640,450; g=60; x1,x2=cx-g-W,cx+g; y1,y2=cy-g-H,cy+g
+    s=f'''<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1180" viewBox="0 0 1600 1180" {F}>
+  <rect width="1600" height="1180" fill="#fff"/>
   {quad('q1',T,x1,y1,W,H,28,17,12.5)}{quad('q2',T,x2,y1,W,H,28,17,12.5)}{quad('q3',T,x1,y2,W,H,28,17,12.5)}{quad('q4',T,x2,y2,W,H,28,17,12.5)}
   <g fill="none" stroke="{INK}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
     <line x1="150" y1="{cy}" x2="1450" y2="{cy}"/><path d="M 1425 {cy-16} L 1450 {cy} L 1425 {cy+16}"/><path d="M 175 {cy-16} L 150 {cy} L 175 {cy+16}"/>
-    <line x1="{cx}" y1="70" x2="{cx}" y2="1055"/><path d="M {cx-16} 95 L {cx} 70 L {cx+16} 95"/><path d="M {cx-16} 1030 L {cx} 1055 L {cx+16} 1030"/>
+    <line x1="{cx}" y1="62" x2="{cx}" y2="1118"/><path d="M {cx-16} 87 L {cx} 62 L {cx+16} 87"/><path d="M {cx-16} 1093 L {cx} 1118 L {cx+16} 1093"/>
   </g>
   <g font-size="26" font-weight="bold" fill="{INK}">
     <text x="78" y="{cy+9}" text-anchor="middle">{T['mol']}</text><text x="1522" y="{cy+9}" text-anchor="middle">{T['beh']}</text>
-    <text x="{cx}" y="52" text-anchor="middle">{T['model']}</text><text x="{cx}" y="1096" text-anchor="middle">{T['data']}</text></g>
+    <text x="{cx}" y="42" text-anchor="middle">{T['model']}</text><text x="{cx}" y="1160" text-anchor="middle">{T['data']}</text></g>
 </svg>'''
     open(f'research-map-{tag}-{lang}.svg','w').write(s)
 def mobile(lang,tag):
