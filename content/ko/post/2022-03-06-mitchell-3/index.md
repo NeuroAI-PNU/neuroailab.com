@@ -6,9 +6,9 @@ authors:
 categories: ["News"]
 ---
 
-[왜 인공지능 만들기는 생각보다 어려운가?(Mitchell 논문 리뷰 1)](https://neuroailab.com/ko/2022/02/17/%ec%99%9c-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a7%8c%eb%93%a4%ea%b8%b0%eb%8a%94-%ec%83%9d%ea%b0%81%eb%b3%b4%eb%8b%a4-%ec%96%b4%eb%a0%a4%ec%9a%b4%ea%b0%80mitchell-%eb%85%bc%eb%ac%b8-%eb%a6%ac/)
+[왜 인공지능 만들기는 생각보다 어려운가?(Mitchell 논문 리뷰 1)](../2022-02-17-mitchell-1/)
 
-[왜 인공지능 만들기는 생각보다 어려운가?(Mitchell 논문 리뷰 2)](https://neuroailab.com/ko/2022/02/18/%ec%99%9c-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a7%8c%eb%93%a4%ea%b8%b0%eb%8a%94-%ec%83%9d%ea%b0%81%eb%b3%b4%eb%8b%a4-%ec%96%b4%eb%a0%a4%ec%9a%b4%ea%b0%80mitchell-%eb%85%bc%eb%ac%b8-%eb%a6%ac-2/)
+[왜 인공지능 만들기는 생각보다 어려운가?(Mitchell 논문 리뷰 2)](../2022-02-18-mitchell-2/)
 
 위 글들에 이어지는 글이다. 미첼이 지적하는 세번째 오류는 인공지능 연구자들이 스스로가 만든 인공지능 알고리즘에 과잉해석을 덧붙인다는 점이다. 멋들어진 약어를 쓰고(예를 들어 UNDERSTAND, GOAL같은), 알고리즘을 인간적으로 비유하는 것이 대중 뿐만 아니라, 연구자들 스스로로 함정에 빠뜨리게 된다는 점을 지적한다.
 

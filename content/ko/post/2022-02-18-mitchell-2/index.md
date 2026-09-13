@@ -6,7 +6,7 @@ authors:
 categories: ["News"]
 ---
 
-[왜 인공지능 만들기는 생각보다 어려운가?(Mitchell 논문 리뷰 1)](https://neuroailab.com/ko/2022/02/17/%ec%99%9c-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a7%8c%eb%93%a4%ea%b8%b0%eb%8a%94-%ec%83%9d%ea%b0%81%eb%b3%b4%eb%8b%a4-%ec%96%b4%eb%a0%a4%ec%9a%b4%ea%b0%80mitchell-%eb%85%bc%eb%ac%b8-%eb%a6%ac/) 에서 이어지는 내용이다.
+[왜 인공지능 만들기는 생각보다 어려운가?(Mitchell 논문 리뷰 1)](../2022-02-17-mitchell-1/) 에서 이어지는 내용이다.
 
 네가지 요소 중 두번째 문제인 모라벡의 역설에 대해 다루겠다.
 

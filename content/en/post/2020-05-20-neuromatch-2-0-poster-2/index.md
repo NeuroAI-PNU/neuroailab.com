@@ -6,4 +6,4 @@ authors:
 categories: ["Research"]
 ---
 
-\[pdf-embedder url="https://neuroailab.com/wp-content/uploads/2020/02/neuromatch\_slideposter.pdf"\]
+\[pdf-embedder url="neuromatch_slideposter.pdf"\]
