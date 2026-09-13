@@ -11,10 +11,10 @@ organizations:
   - name: '부산대학교 의과대학 생리학·의생명정보학교실'
 email: hyunsu.lee@pusan.ac.kr
 interests:
-  - '신경 미세회로 수준의 학습과 기억 기전'
-  - '해마의 공간 탐색'
-  - '신경과학과 인공지능의 융합'
-  - '의생명 분야 AI 응용과 윤리'
+  - 'Learning and memory mechanisms at the neural microcircuit level'
+  - 'Spatial navigation of the hippocampus'
+  - 'Convergence of neuroscience and AI'
+  - 'Application of AI in biomedicine and its ethical issues'
 education:
   courses:
     - course: '의학박사(생리학)'
