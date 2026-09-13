@@ -9,6 +9,12 @@ ko:
   title: 신경인공지능 연구실
   params:
     description: 부산대학교 의과대학 생리학교실 신경인공지능 연구실(NeuroAI Lab)
+    locale:
+      date_format: '2006년 1월 2일'
+      time_format: '15:04'
+    publications:
+      date_format: '2006년 1월'
+      citation_style: apa
   menu:
     main:
       - name: 연구
