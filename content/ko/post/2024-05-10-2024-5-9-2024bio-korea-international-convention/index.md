@@ -2,7 +2,7 @@
 title: "2024년 5월 9일 2024BIO-KOREA International Convention"
 date: 2024-05-10
 authors:
-  - Hyunsu Lee
+  - Deokhyeon Yoon
 categories: ["News"]
 ---
 

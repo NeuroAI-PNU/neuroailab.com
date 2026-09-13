@@ -2,7 +2,7 @@
 title: "2026 한국이온통로연구회 연례학술대회"
 date: 2026-02-02
 authors:
-  - Hyunsu Lee
+  - Hyunjin Kim
 categories: ["News"]
 ---
 

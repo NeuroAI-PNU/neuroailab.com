@@ -2,7 +2,7 @@
 title: "2026년 2월 오성수 석사학위생 졸업 기념"
 date: 2026-02-20
 authors:
-  - Hyunsu Lee
+  - Jeongin Jang
 categories: ["News"]
 ---
 

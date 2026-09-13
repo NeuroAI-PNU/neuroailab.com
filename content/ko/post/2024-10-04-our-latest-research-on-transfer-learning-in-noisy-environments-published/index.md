@@ -7,7 +7,7 @@ categories: ["News"]
 summary: "저희 연구 \"Investigating Transfer Learning in Noisy Environments: A Study of Predecessor and Successor Features in Spatial Learning Using a T-Maze \"가 Sensors 저널에 게재되었습니다!"
 ---
 
-저희 연구 **"Investigating Transfer Learning in Noisy Environments: A Study of Predecessor and Successor Features in Spatial Learning Using a T-Maze "**가 *Sensors* 저널에 게재되었습니다\!
+저희 연구 <strong>"Investigating Transfer Learning in Noisy Environments: A Study of Predecessor and Successor Features in Spatial Learning Using a T-Maze "</strong>가 *Sensors* 저널에 게재되었습니다\!
 
 이 연구에서는 강화 학습 환경에서의 소음 문제를 다루고 있습니다. 특히, 노이즈 조건에서 전이 학습 알고리즘인 PF과 SF이 길찾기 및 보상 획득에서 어떻게 성능을 발휘하는지를 중점적으로 연구했습니다.
 

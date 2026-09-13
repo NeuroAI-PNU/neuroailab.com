@@ -2,7 +2,7 @@
 title: "2024년 11월 22일 대한의료정보학회 추계학술대회"
 date: 2024-12-06
 authors:
-  - Hyunsu Lee
+  - SungSu Oh
 categories: ["News"]
 ---
 

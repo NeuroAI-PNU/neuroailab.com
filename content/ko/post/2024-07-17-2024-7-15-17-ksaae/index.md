@@ -2,7 +2,7 @@
 title: "2024년 7월 15~17 동물실험대체법학회 KSAAE 정기학술대회"
 date: 2024-07-17
 authors:
-  - Hyunsu Lee
+  - Deokhyeon Yoon
 categories: ["News"]
 ---
 

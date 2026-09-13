@@ -17,5 +17,4 @@ publication_types: ['article-journal']
 publication: '*Probiotics and Antimicrobial Proteins*, 17(6), 4659–4674'
 doi: 10.1007/s12602-024-10412-2
 featured: false
-# TODO(PI): Scholar 프로필에 있으나 동명이인 논문일 수 있음 — 확인 후 삭제 또는 유지
 ---

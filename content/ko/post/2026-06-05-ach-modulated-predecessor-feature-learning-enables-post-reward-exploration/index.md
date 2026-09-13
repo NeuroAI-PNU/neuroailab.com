@@ -6,7 +6,7 @@ authors:
 categories: ["News"]
 ---
 
-저희 연구팀의 논문 **“Eligibility-trace–gated depression in predecessor feature learning enables post-reward exploration”**이 출판되었습니다.
+저희 연구팀의 논문 <strong>“Eligibility-trace–gated depression in predecessor feature learning enables post-reward exploration”</strong>이 출판되었습니다.
 
 이번 연구에서는 아세틸콜린(ACh) 조절을 반영한 predecessor feature learning 모델을 제안하고, 보상 이후에도 환경을 유연하게 탐색할 수 있는 계산 원리를 분석했습니다.
 

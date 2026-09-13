@@ -2,7 +2,7 @@
 title: "2025년 1월 8일 경상국립대 의과대학-부산대 의과대학 공동 심포지엄"
 date: 2025-01-09
 authors:
-  - Hyunsu Lee
+  - Deokhyeon Yoon
 categories: ["News"]
 ---
 

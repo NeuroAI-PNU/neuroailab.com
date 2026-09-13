@@ -2,7 +2,7 @@
 title: "장정인 석사과정 학생이 우리 연구실에 합류했습니다."
 date: 2025-03-05
 authors:
-  - Hyunsu Lee
+  - SungSu Oh
 categories: ["News"]
 ---
 
