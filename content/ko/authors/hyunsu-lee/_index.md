@@ -3,6 +3,7 @@ title: Hyunsu Lee
 first_name: Hyunsu
 last_name: Lee
 superuser: true
+list_interests: false   # 구성원 목록에서는 관심분야 숨김 (개인 페이지에는 표시)
 role: '부교수, M.D., Ph.D.'
 weight: 1
 user_groups:

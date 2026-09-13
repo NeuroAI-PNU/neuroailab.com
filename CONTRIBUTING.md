@@ -25,6 +25,8 @@ GitHub에서 PR을 열면 됩니다. 로컬에 Hugo가 없어도 됩니다. PR�
 `user_groups`는 두 언어의 `people/index.md`에 있는 그룹 이름과 정확히 같아야 표시됩니다.
 `weight`는 그룹 안 정렬 순서입니다(작을수록 위).
 
+관심분야(`interests`)는 구성원 목록과 개인 페이지 양쪽에 표시됩니다. 목록에서만 숨기려면 `list_interests: false`를 넣습니다.
+
 GitHub, Google Scholar, ORCID, 이메일 등은 `social` 항목에 넣으면 프로필에 아이콘으로 표시됩니다.
 
 ```yaml
