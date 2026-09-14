@@ -17,6 +17,8 @@ GitHub에서 PR을 열면 됩니다. 로컬에 Hugo가 없어도 됩니다. PR�
 
 ## 내 프로필 추가·수정
 
+처음 만드는 분은 랩 위키의 [홈페이지 프로필 만들기](https://github.com/NeuroAI-PNU/lab_wiki/blob/main/handbook/01-access/homepage-profile.md)(브라우저만으로 하는 단계별 절차)를 따라 주세요. 아래는 항목 설명입니다.
+
 한 사람당 두 파일입니다. 기존 파일을 복사해서 고치세요.
 
 - `content/ko/authors/<이름-slug>/_index.md` (한국어)
