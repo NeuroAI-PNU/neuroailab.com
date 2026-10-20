@@ -47,6 +47,13 @@ jobs:
             ${{ runner.os }}-hugomod-
       - name: Check content (post authors)
         run: python3 tools/check-content.py
+      - name: Convert photos to web formats (iPhone HEIC renamed .jpg, oversized images)
+        run: |
+          if ! python3 tools/fix-images.py --check; then
+            pip install -q pillow pillow-heif
+            python3 tools/fix-images.py
+            echo "::warning::Some photos were converted only for this build. Run tools/fix-images.py locally (or ask in Zulip) so the repo copy also displays on GitHub."
+          fi
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

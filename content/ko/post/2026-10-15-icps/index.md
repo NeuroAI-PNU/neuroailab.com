@@ -10,13 +10,13 @@ categories: ["News"]
 
 장정인, 김은진, 전용수 석사과정생이 포스터 발표를 진행하며, 학술대회 강연을 들었습니다.
 
-{{< figure src="img-1.jpg" >}} {{< figure src="img-2.jpg" >}}
+{{< figure src="image-1.jpg" >}} {{< figure src="image-2.jpg" >}}
 
 장정인 석사과정생이 "**Structure-Based Discovery of Selective TMEM175 Inhibitors: A pH-Dependent Computational Approach**" 를 주제로 포스터 발표를 진행하였습니다.
-{{< figure src="img-3.jpg" >}}
+{{< figure src="image-3.jpg" >}}
 
 김은진 석사과정생이 "**In Silico Mechanistic Analysis of a Nav1.2 Variant Associated with Developmental and Epileptic Encephalopathy**" 를 주제로 포스터 발표를 진행하였습니다.  
-{{< figure src="img-4.jpg" >}}
+{{< figure src="image-4.jpg" >}}
 
 전용수 석사과정생이 "**Molecular docking and molecular dynamics simulations of Eupatilin against fibrosis-associated signaling targets**" 을 주제로 포스터 발표를 진행하였습니다.
-{{< figure src="img-5.jpg" >}}
+{{< figure src="image-5.jpg" >}}
