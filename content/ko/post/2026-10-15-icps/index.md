@@ -1,12 +1,12 @@
 ---
-title: "2026 International Conference of Physiology Sciences(ICPS), Bejing, China"
-date: 2026-10-15 ~ 2026-10-18
+title: "2026 International Conference of Physiology Sciences(ICPS), Beijing, China"
+date: 2026-10-20
 authors:
   - Jeongin Jang
 categories: ["News"]
 ---
 
-2026 10월 15일\~ 10월 18일 중국 베이징에서 개최된 <strong>Intercational Conderence of Physiology Sciences</strong>에 참석하였습니다.
+2026년 10월 15일~18일 중국 베이징에서 개최된 <strong>International Conference of Physiology Sciences</strong>에 참석하였습니다.
 
 장정인, 김은진, 전용수 석사과정생이 포스터 발표를 진행하며, 학술대회 강연을 들었습니다.
 

@@ -9,6 +9,7 @@ import re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1] / "content"
 errors = []
+warnings = []  # 빌드는 통과시키되 알림만
 
 def front_matter(path):
     text = path.read_text(encoding="utf-8")
@@ -30,8 +31,21 @@ for lang_dir in sorted(p for p in ROOT.iterdir() if p.is_dir()):
         m = re.search(r"^title:\s*(.+)$", front_matter(f), re.M)
         if m:
             profiles[m.group(1).strip().strip("'\"")] = f.parent.name
-    for f in sorted((lang_dir / "post").glob("*/index.md")):
+    post_dir = lang_dir / "post"
+    for f in sorted(post_dir.iterdir()) if post_dir.is_dir() else []:
+        # 글은 반드시 <폴더>/index.md. 확장자 없는 파일이나 폴더 밖 .md는 Hugo가 무시해 조용히 사라진다.
+        if f.is_file() and f.name != "_index.md":
+            errors.append(f"{f.relative_to(ROOT.parent)}: 글은 '<날짜-제목>/index.md' 형식이어야 합니다 (이 파일은 사이트에 나오지 않습니다)")
+        elif f.is_dir() and not (f / "index.md").exists():
+            errors.append(f"{f.relative_to(ROOT.parent)}/: 폴더 안에 index.md 가 없습니다")
+    for f in sorted(post_dir.glob("*/index.md")):
         rel = f.relative_to(ROOT.parent)
+        m = re.search(r"^date:\s*(.+)$", front_matter(f), re.M)
+        if not m or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", m.group(1).strip().strip("'\"")):
+            errors.append(f"{rel}: date 는 YYYY-MM-DD 하나만 적어 주세요 (기간은 본문에)")
+        for img in re.findall(r'figure src="([^"]+)"', f.read_text(encoding="utf-8")):
+            if not img.startswith(("http", "/")) and not (f.parent / img).exists():
+                warnings.append(f"{rel}: 그림 '{img}' 파일이 아직 글 폴더에 없습니다 (올리기 전까지 빈 그림으로 보임)")
         names = authors_of(front_matter(f))
         if not names:
             errors.append(f"{rel}: authors 가 비어 있습니다. 프로필 이름을 적어 주세요 (예: authors: [Hyunsu Lee])")
@@ -42,8 +56,10 @@ for lang_dir in sorted(p for p in ROOT.iterdir() if p.is_dir()):
                 hint = f" (비슷한 프로필: {', '.join(close)})" if close else ""
                 errors.append(f"{rel}: authors '{n}' 에 해당하는 프로필이 {lang_dir.name}/authors 에 없습니다{hint}")
 
+if warnings:
+    print("경고:\n" + "\n".join(warnings))
 if errors:
     print("\n".join(errors))
-    print(f"\n{len(errors)}개 문제. 프로필 이름은 content/<lang>/authors/<slug>/_index.md 의 title 과 같아야 합니다.")
+    print(f"\n{len(errors)}개 문제. 글 쓰는 법은 CONTRIBUTING.md 의 '소식(News) 글 쓰기'.")
     sys.exit(1)
 print("check-content: OK")
